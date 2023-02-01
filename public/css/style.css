@@ -938,7 +938,7 @@ header #logo {
 #menubar_hdr2.open,#menubar_hdr3.open {
 	background: url(../images/arrow3.png) no-repeat 10px 18px / auto 18px;
 }
-/*子メニュー１個あ��りの設定*/
+/*子メ��ュー１個あ��りの設定*/
 #menubar-s2 li a,#menubar-s3 li a {
 	color: #666 !important;
 	border-bottom: 1px solid #999 !important;
