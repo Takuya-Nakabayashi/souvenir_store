@@ -89,8 +89,8 @@
 <div id="sub">
 
   <aside class="mb15">
-    <img src="{{ asset('images/banner_sub.jpg') }}" alt="" class="pc">
-    <img src="{{ asset('images/banner_sub_s.jpg') }}" alt="" class="sh">
+    <img src="{{ secure_asset('images/banner_sub.jpg') }}" alt="" class="pc">
+    <img src="{{ secure_asset('images/banner_sub_s.jpg') }}" alt="" class="sh">
     <!--↑端末サイズで表示される画像が切り替わります。<br>-->
     <!--「class=&quot;pc&quot;」は801px以上で表示させる画像、「class=&quot;sh&quot;」は800px以下で表示させる画像です。-->
   </aside>
