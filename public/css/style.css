@@ -1277,7 +1277,9 @@ img.fr {float: none;display: block;width:90%;margin: 0 auto 20px;}
 	padding: 20px;
 }
 .item_show_info{
-	width: 650px;
+	/*width: 650px;*/
+	min-width: 340px;
+    max-width: 650px;
     margin: 0 auto;
 }
 .item_show_tips{
