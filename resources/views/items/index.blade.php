@@ -6,18 +6,18 @@
 <section class="single">
 	<div class="box">
     <div class="single-item u-fade-type-up js-scroll-trigger">
-        <img src="{{ asset('images/mv_img-1.jpg') }}" class="pc">
-        <img src="{{ asset('images/top_img_sh.png') }}" class="sh">
-    </div>
-		<div class="single-item-A u-fade-type-up-A js-scroll-trigger-A">
-      <img src="{{ asset('images/zenkoku.png') }}"class="pc">
-    </div>
-    <div class="single-item-B u-fade-type-up-B js-scroll-trigger-B">
-      <img src="{{ asset('images/omiyage.png') }}"class="pc">
-    </div>
-    <div class="single-item-C u-fade-type-up-C js-scroll-trigger-C">
-      <img src="{{ asset('images/busanten.png') }}"class="pc">
-    </div>
+        <img src="{{ secure_asset('images/top_img_sh.png') }}" class="pc">
+        <img src="{{ secure_asset('images/top_img_sh.png') }}" class="sh">
+  <!--  </div>-->
+		<!--<div class="single-item-A u-fade-type-up-A js-scroll-trigger-A">-->
+  <!--    <img src="{{ secure_asset('images/zenkoku.png') }}"class="pc">-->
+  <!--  </div>-->
+  <!--  <div class="single-item-B u-fade-type-up-B js-scroll-trigger-B">-->
+  <!--    <img src="{{ secure_asset('images/omiyage.png') }}"class="pc">-->
+  <!--  </div>-->
+  <!--  <div class="single-item-C u-fade-type-up-C js-scroll-trigger-C">-->
+  <!--    <img src="{{ secure_asset('images/busanten.png') }}"class="pc">-->
+  <!--  </div>-->
 	</div>   
     
 </section>
