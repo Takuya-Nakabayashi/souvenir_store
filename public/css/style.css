@@ -1188,7 +1188,9 @@ img.fr {float: none;display: block;width:90%;margin: 0 auto 20px;}
 }
 .item_info{
   float: right;
-    width: 492px;
+  /*width: 492px;*/
+  min-width: 340px;
+  max-width: 650px;
 }
 .item_name{
   font-size: 18px;
@@ -1305,7 +1307,9 @@ img.fr {float: none;display: block;width:90%;margin: 0 auto 20px;}
 .mypage{
 	border: solid 1px #000000;
 	height: 120px;
-	width: 500px;
+	/*width: 500px;*/
+	min-width: 340px;
+    max-width: 650px;
 }
 .mypage_h1{
 	font-size: 30px;
