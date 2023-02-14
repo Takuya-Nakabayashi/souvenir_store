@@ -23,7 +23,7 @@
 </section>
 
 <section id="top-contents">
-	<div class="single-item u-fade-type-up js-scroll-trigger-2">
+	<div class="single-item-Map u-fade-type-up-Map js-scroll-trigger-2">
 
 		<h2 class="c big1">掲載お土産数：{{ $count }}件</h2>
 
