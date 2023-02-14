@@ -14,7 +14,7 @@ $(function () {
                     scroll = $(window).scrollTop(),
                     windowHeight = $(window).height();
 
-                if (scroll > position - windowHeight + 700) {
+                if (scroll > position - windowHeight + 450) {
                     $(this).addClass('is-active');
                 }
             });
@@ -38,7 +38,7 @@ $(function () {
                     scroll = $(window).scrollTop(),
                     windowHeight = $(window).height();
 
-                if (scroll > position - windowHeight + 650) {
+                if (scroll > position - windowHeight + 330) {
                     $(this).addClass('is-active');
                 }
             });

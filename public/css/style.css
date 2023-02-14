@@ -1337,30 +1337,44 @@ img.fr {float: none;display: block;width:90%;margin: 0 auto 20px;}
 /*メインビジュアル　スクロールアニメーション
 ---------------------------------------------------------------------------*/
 /* レイアウトや見た目のスタイル */
-/* ---------------------------- */
 
 .single-item + .single-item{
     margin-top: 80px;
 }
 
 /* アニメーションスタイル */
-/* ---------------------------- */
-
+/*トップイメージ
+---------------------------------------------------------------------------*/
 /* アニメーション前 */
 .u-fade-type-up{
-    transform: translateY(50px);
+    transform: translateX(-50px);
     opacity: 0;
 }
 
 /* トリガー発火でis-activeを付与 */
 .u-fade-type-up.is-active{
+    transition: .8s;
+    transform: translateX(0);
+    opacity: 1;
+}
+/*日本地図
+---------------------------------------------------------------------------*/
+.u-fade-type-up-Map{
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+/* トリガー発火でis-activeを付与 */
+.u-fade-type-up-Map.is-active{
     transition: .6s;
     transform: translateY(0);
     opacity: 1;
 }
 
 .box{
-	position: relative;
+	position: relative
+/*お土産物産展文字アニメーション
+---------------------------------------------------------------------------*/
 }
 .single-item-A {
 	position: absolute;
