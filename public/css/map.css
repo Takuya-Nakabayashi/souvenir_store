@@ -6,7 +6,7 @@
 /*top-contents（トップページの日本地図が入った１カラムのブロック）
 ---------------------------------------------------------------------------*/
 #top-contents {
-	background: url(../images/bg1.jpg) no-repeat center bottom / 100%;	/*背景画像の読み込み*/
+	background: url(../images/bg1.jpg) no-repeat center bottom / 150%;	/*背景画像の読み込み*/
 	padding-bottom: 16px;	/*下に余白を作る。背景画像の家並みと日本地図が重ならないようにする為。*/
 }
 
